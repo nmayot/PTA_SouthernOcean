@@ -1,0 +1,13 @@
+# folders
+
+# file extensions
+*.nc
+
+# system files
+**/*.DS_Store
+.DS_Store
+
+# this is where you would store passwords for the servers etc.
+# never never upload this!
+.env
+.vscode/settings.json
