@@ -1,6 +1,10 @@
-# PTA_SouthrnOcean
+# PTA_SouthernOcean
 
-A git repository that contains scripts in Matlab to performed the analysis presented in Mayot et al. (submitted) - Phil. Trans. R. Soc. A.
+A git repository that contains scripts in Matlab to performed the analysis presented in Mayot *et al.* (submitted) - Phil. Trans. R. Soc. A.
+
+## Contact
+Nicolas Mayot  
+email: n.mayot@uea.ac.uk  
 
 ## Folder structure
 
@@ -11,15 +15,16 @@ A git repository that contains scripts in Matlab to performed the analysis prese
 ├── /data : the data used are stored here
 │   ├── /Models
 │   │   ├── /2D_CO2 : one folder for each GOBM (from RECCAP2 ocean project)
-│   │       ├── /CESM-ETHZ
-│   │       ├── /CNRM-ESM
-│   │       ├── ...
-│   │       └── /ORCA025-GEOMAR
+│   │   │   ├── /CESM-ETHZ
+│   │   │   ├── /CNRM-ESM
+│   │   │   ├── ...
+│   │   │   └── /ORCA025-GEOMAR
+│   │   │  
 │   │   └── /2D_O2 : one folder for each GOBM (on request or from GCB project)
 │   │       ├── /CESM-ETHZ
 │   │       ├── /CNRM-ESM
 │   │       ├── ...
-│   │       └── /ORCA025-GEOMAR
+│   │       └── /NEMO-PlankTOM12
 │   │   
 │   └── /Surface_CO2 : one folder for each pCO2 product (from RECCAP2 ocean project)
 │           ├── /CMEMS-LSCEFFNN
