@@ -1,9 +1,5 @@
 # folders
 
-# ignore everything except .gitignore and folders that I care about:
-!data*
-!.gitignore
-
 # file extensions
 *.nc
 *.mat
