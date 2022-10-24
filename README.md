@@ -1,5 +1,3 @@
-# PTA_SouthernOcean
-
 A git repository that contains scripts in Matlab to performed the analysis presented in Mayot *et al.* (submitted) - Phil. Trans. R. Soc. A.
 
 ## Contact
@@ -10,9 +8,10 @@ email: n.mayot@uea.ac.uk
 
 ```text
 .
-├── CO2_O2_SAM_timeseries.xlsx : The Excel file used to do the figures (available on zenodo: xxx)
 │  
 ├── /data : the data used are stored here
+│   ├── CO2_O2_SAM_timeseries.xlsx : Time series available to editors and reviewers on https://osf.io/
+│   │  
 │   ├── /Models
 │   │   ├── /2D_CO2 : one folder for each GOBM (from RECCAP2 ocean project)
 │   │   │   ├── /CESM-ETHZ

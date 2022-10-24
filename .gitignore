@@ -2,6 +2,7 @@
 
 # file extensions
 *.nc
+*.mat
 
 # system files
 **/*.DS_Store
