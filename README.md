@@ -12,6 +12,9 @@ email: n.mayot@uea.ac.uk
 ├── /data : the data used are stored here
 │   ├── CO2_O2_SAM_timeseries.xlsx : Time series available to editors and reviewers on https://osf.io/
 │   │  
+│   ├── 2D_CO2..._hw.mat : for the maps in Figure 3 
+│   ├── 2D_O2..._hw.mat : for the maps in Figure 3 
+│   │  
 │   ├── /Models
 │   │   ├── /2D_CO2 : one folder for each GOBM (from RECCAP2 ocean project)
 │   │   │   ├── /CESM-ETHZ
@@ -20,10 +23,18 @@ email: n.mayot@uea.ac.uk
 │   │   │   └── /ORCA025-GEOMAR
 │   │   │  
 │   │   └── /2D_O2 : one folder for each GOBM (on request or from GCB project)
-│   │       ├── /CESM-ETHZ
-│   │       ├── /CNRM-ESM
-│   │       ├── ...
-│   │       └── /NEMO-PlankTOM12
+│   │   │   ├── /CESM-ETHZ
+│   │   │   ├── /CNRM-ESM
+│   │   │   ├── ...
+│   │   │   └── /NEMO-PlankTOM12
+│   │   │  
+│   │   └── /CMIP6 : fgco2 and fgo2 from the selected CMIP6 models (from CMIP6 archive)
+│   │   │   ├── /areacello
+│   │   │   ├── fgco2_Omon_... .nc
+│   │   │   ├── ...
+│   │   │   └── fgo2_Omon_... .nc
+│   │  
+│   ├── /Jena_inversion : APO inversion (from Jena CarboScope)
 │   │   
 │   └── /Surface_CO2 : one folder for each pCO2 product (from RECCAP2 ocean project)
 │           ├── /CMEMS-LSCEFFNN
